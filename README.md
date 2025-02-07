@@ -26,4 +26,5 @@ Code (node modules deleted), zipped
 - Vercel or Azure
 - figma
 
-### Peer Review:
+### Peer Name: Ian Chesley
+Peer Review: The code looks good. Buttons react as they should. No issues with running the different programs.
