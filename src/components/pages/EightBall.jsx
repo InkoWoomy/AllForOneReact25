@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react';
 import { getData } from '../../services/services'
+import MenuButtons from '../MenuButtons';
 
 const EightBall = () => {
   
@@ -28,6 +29,7 @@ const EightBall = () => {
       <h1 className='text-7xl'>Eight Ball</h1>
       <input type="text" onChange={(event) => setUserInput(event.target.value)} className='text-black rounded-lg border-gray-400 border-4 m-5'/>
       <h2>{output}</h2>
+      <MenuButtons/>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { useState } from 'react';
 import { getData } from '../../services/services'
 import { Button } from 'flowbite-react';
+import MenuButtons from '../MenuButtons';
 
 const RestaurantPicker = () => {
   
@@ -27,17 +28,19 @@ const RestaurantPicker = () => {
   return (
     <div className="">
       <h1 className='text-7xl'>Restaurant Picker</h1>
-      <div className="flex flex-cols-3"></div>
-      <div className='col-start-1'>
-        <Button onChange={(event) => setUserInput(event.target.innerText)}>Pizza</Button>
-      </div>
-      <div className='col-start-2'>
-        <Button>Fast Food</Button>
-      </div>
-      <div className='col-start-3'>        
-        <Button>Chinese</Button>
+      <div className="md:grid grid-cols-3 justify-items-center my-10">
+        <div className='col-start-1 sm:m-5 md:m-0'>
+          <Button onClick={() => fetchData("pizza")}><h1 className='text-3xl p-5'>Pizza</h1></Button>
+        </div>
+        <div className='col-start-2 sm:m-5 md:m-0'>
+          <Button onClick={() => fetchData("fastfood")}><h1 className='text-3xl p-5'>Fast Food</h1></Button>
+        </div>
+        <div className='col-start-3 sm:m-5 md:m-0'>        
+          <Button onClick={() => fetchData("chinese")}><h1 className='text-3xl p-5'>Chinese</h1></Button>
+        </div>
       </div>
       <h2>{output}</h2>
+      <MenuButtons/>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getData } from '../../services/services';
+import MenuButtons from '../MenuButtons';
 
 const GreaterThanLessThan = () => {
   
@@ -28,6 +29,7 @@ const GreaterThanLessThan = () => {
       <input type="text" onChange={(event) => setNum1(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
       <input type="text" onChange={(event) => setNum2(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
       <h2>{output}</h2>
+      <MenuButtons/>
     </div>
   )
 }

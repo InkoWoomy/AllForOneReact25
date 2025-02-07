@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { getData } from '../../services/services';
+import MenuButtons from '../MenuButtons';
 
 const MadLibs = () => {
 
@@ -44,6 +45,7 @@ const MadLibs = () => {
       <input type="text" placeholder='Noun' onChange={(event) => setNoun1(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
       <input type="text" placeholder='Noun' onChange={(event) => setNoun2(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
       <h2>{output}</h2>
+      <MenuButtons/>
     </div>
   )
 }
