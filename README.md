@@ -1,6 +1,6 @@
 # All For One React
 
-##Alexander Soria
+### Alexander Soria
 ### 2/7/25
 
 ### Rebuild your All For One Project in React
@@ -26,4 +26,4 @@ Code (node modules deleted), zipped
 - Vercel or Azure
 - figma
 
-###Peer Review:
+### Peer Review:
