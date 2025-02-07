@@ -39,7 +39,7 @@ const RestaurantPicker = () => {
           <Button onClick={() => fetchData("chinese")}><h1 className='text-3xl p-5'>Chinese</h1></Button>
         </div>
       </div>
-      <h2>{output}</h2>
+      <h2 className='text-5xl'>{output}</h2>
       <MenuButtons/>
     </div>
   )

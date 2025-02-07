@@ -33,7 +33,7 @@ const MadLibs = () => {
 
   return (
     <div>
-      <h1 className='text-7xl'>Add Two Numbers</h1>
+      <h1 className='text-7xl'>Mad Libs</h1>
       <input type="text" placeholder='Verb' onChange={(event) => setVerb1(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
       <input type="text" placeholder='Verb' onChange={(event) => setVerb2(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
       <input type="text" placeholder='Verb' onChange={(event) => setVerb3(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
@@ -44,7 +44,7 @@ const MadLibs = () => {
       <input type="text" placeholder='Article of Clothing' onChange={(event) => setClothingItem(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
       <input type="text" placeholder='Noun' onChange={(event) => setNoun1(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
       <input type="text" placeholder='Noun' onChange={(event) => setNoun2(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
-      <h2>{output}</h2>
+      <h2 className='text-5xl'>{output}</h2>
       <MenuButtons/>
     </div>
   )

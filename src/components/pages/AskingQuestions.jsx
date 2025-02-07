@@ -33,7 +33,7 @@ const AskingQuestions = () => {
       <h1 className='text-7xl'>Asking Questions</h1>
       <input type="text" placeholder="Name?" onChange={(event) => setName(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
       <input type="text" placeholder='Time you woke up?' onChange={(event) => setTime(event.target.value)} className='text-black m-5 rounded-lg border-gray-400 border-4'/>
-      <h2>{output}</h2>
+      <h2 className='text-5xl'>{output}</h2>
       <MenuButtons/>
     </div>
   )

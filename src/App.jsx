@@ -19,75 +19,75 @@ function App() {
   console.log("App is rendering")
   return (
     <div>
-      <h1 className='text-7xl'>All For One</h1>
-      <div className='grid grid-cols-2 md:grid-cols-3 justify-items-center'>
-        <div className='m-5'>
+      <h1 className='text-7xl mb-4'>All For One</h1>
+      <div className='grid grid-cols-2 md:grid-cols-3 justify-items-center center'>
+        <div className='m-5 w-full p-2'>
           <NavLink type='button' to={'/say-hello'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Say Hello</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Say Hello</h1>
             </Button>
           </NavLink>
         </div>
-        <div className='m-5'>
+        <div className='m-5 w-full p-2'>
           <NavLink type='button' to={'/add-two-numbers'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Add Two Numbers</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Add Two Numbers</h1>
             </Button>
           </NavLink>
         </div>
-        <div className='m-5'>
+        <div className='m-5 w-full p-2'>
           <NavLink type='button' to={'/asking-questions'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Asking Questions</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Asking Questions</h1>
             </Button>
           </NavLink>
         </div>
-        <div className='m-5'>
+        <div className='m-5 w-full p-2'>
           <NavLink type='button' to={'/greater-less'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Greater Than Or Less Than</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Greater Than Or Less Than</h1>
             </Button>
           </NavLink>
         </div>
-        <div className='m-5'>
+        <div className='m-5 w-full p-2'>
           <NavLink type='button' to={'/mad-libs'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Mad Libs</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Mad Libs</h1>
             </Button>
           </NavLink>
         </div>
-        <div className='m-5'>
+        <div className='m-5 w-full p-2'>
           <NavLink type='button' to={'/odd-even'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Odd Or Even</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Odd Or Even</h1>
             </Button>
           </NavLink>
         </div>
-        <div className='m-5'>
+        <div className='m-5 w-full p-2'>
           <NavLink type='button' to={'/reverse-it-a'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Reverse It (Alphanumeric)</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Reverse It (Alphanumeric)</h1>
             </Button>
           </NavLink>
         </div>
-        <div className='m-5'>
+        <div className='m-5 w-full p-2'>
           <NavLink type='button' to={'/reverse-it-n'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Reverse It (Numeric)</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Reverse It (Numeric)</h1>
             </Button>
           </NavLink>
         </div>
-        <div className='m-5'>
+        <div className='m-5 w-full p-2'>
           <NavLink type='button' to={'/eight-ball'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Eight Ball</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Eight Ball</h1>
             </Button>
           </NavLink>
         </div>
-        <div className='m-5 col-start-2'>
+        <div className='m-5 w-full p-2 col-start-2'>
           <NavLink type='button' to={'/restaurant-picker'}>
-            <Button>
-              <h1 className='text-3xl m-4'>Restaurant Picker</h1>
+            <Button className='w-full h-full flex items-center'>
+              <h1 className='text-3xl m-2'>Restaurant Picker</h1>
             </Button>
           </NavLink>
         </div>
